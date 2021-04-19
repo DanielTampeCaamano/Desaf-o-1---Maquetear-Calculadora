@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,58 +7,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Calculadora</title>
 </head>
 
 <body class="body">
     <div class="contenedor1">
-        <div class="parteNumeros">
-            <div>
-                52
+        <div id="seccionNumeros">
+            <div id="primerNumero" class="parteNumeros">
+                
             </div>
-            <div>
-                -
+            <div id="operador" class="parteNumeros">
+                
             </div>
-            <div>
-                30
+            <div id="segundoNumero" class="parteNumeros">
+                
             </div>
         </div>
         <div class="contenedor2">
             <div class="primerasFilas">
-                <div>7</div>
-                <div>4</div>
-                <div>1</div>
-                <div>C</div>
+                <div id="btn7">7</div>
+                <div id="btn4">4</div>
+                <div id="btn1">1</div>
+                <div id="btnC">C</div>
             </div>
             <div class="primerasFilas">
-                
-                <div>8</div>
-                <div>5</div>
-                <div>2</div>
-                <div>0</div>
+
+                <div id="btn8">8</div>
+                <div id="btn5">5</div>
+                <div id="btn2">2</div>
+                <div id="btn0">0</div>
             </div>
             <div class="primerasFilas">
-                
-                <div>9</div>
-                <div>6</div>
-                <div>3</div>
-                <div>.</div>
+
+                <div id="btn9">9</div>
+                <div id="btn6">6</div>
+                <div id="btn3">3</div>
+                <div id="btnPunto">.</div>
             </div>
             <div class="primerasFilas">
-                
-                <div class="ultimasFilas">/</div>
-                <div class="ultimasFilas">x</div>
-                <div class="ultimasFilas">-</div>
-                <div class="ultimasFilas">+</div>
+
+                <div id="btnDividir" class="ultimasFilas">/</div>
+                <div id="btnMultiplicar" class="ultimasFilas">x</div>
+                <div id="btnRestar" class="ultimasFilas">-</div>
+                <div id="btnSumar" class="ultimasFilas">+</div>
             </div>
-            <div class="ultimaFila">
-                <div class="ultimasFilas">+/-</div>
-                <div> </div>
-                <div class="penultimaFila">{x]</div>
-                <div class="igual">=</div>
+            <div class="primerasFilas">
+                <div id="btnOperarSumaResta" class="ultimasFilas">+/-</div>
+                <div id="btnBorrar" class="penultimaFila"><span class="material-icons">
+                        backspace
+                    </span></div>
+                <div id="btnResultado" class="igual">=</div>
             </div>
         </div>
     </div>
+    <script src="codigo.js"></script>
 </body>
 
 </html>
